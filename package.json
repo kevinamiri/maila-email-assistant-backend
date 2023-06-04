@@ -1,0 +1,23 @@
+{
+  "name": "aws-lambda-ses-processor",
+  "version": "1.0.0",
+  "description": "This is a Lambda function that processes SES events",
+  "main": "index.js",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.4.3",
+    "@vercel/ncc": "^0.36.1",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1386.0",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.1.1",
+    "mailparser": "^3.6.4",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.115",
+    "@types/mailparser": "^3.4.0",
+    "@types/node-fetch": "^2.6.4",
+    "typescript": "^5.1.3"
+  }
+}
